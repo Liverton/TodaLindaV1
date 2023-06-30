@@ -1,13 +1,20 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
 
 :root {
     --cor-de-fundo: #ebecee;
     --cor-beige: #F9F5EB;
     --cor-laranja: #FF8400;
     --cor-preto: black;
+    --cor-amarelo: #FFDE00;
+    --fonte-principal: "Quicksand";
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
