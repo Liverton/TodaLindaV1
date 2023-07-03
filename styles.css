@@ -1,6 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
-@import url("styles/carrosel.css");
+@import url("styles/produtos.css");
 
 :root {
     --cor-de-fundo: #ebecee;
@@ -8,7 +8,7 @@
     --cor-laranja: #FF8400;
     --cor-preto: black;
     --cor-amarelo: #FFDE00;
-    --fonte-principal: "Quicksand";
+    --fonte-principal: "Poppins";
 }
 
 body {

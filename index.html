@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -44,34 +43,46 @@
         </div>
     </header>
     <section class="banner">
-        <h2 class="banner_titulo">O que você procura?</h2>
+        <h2 class="banner_titulo">Toda Linda</h2>
         <p class="banner__texto">Encontre o que você quer no nosso mostruario!</p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será o seu próximo acessório?">
+        <input type="search" class="banner__pesquisa" placeholder="O que você procura?">
     </section>
-    <section class="carrosel">
-        <h2 class="carrosel__titulo">Novidades!</h2>
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-          
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-          </div>
+    <section class="produtos">
+        <h2 class="produtos__titulo">Nossos produtos!</h2>    
     </section>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <div class="card">
+        <div class="coluna">
+            <!-- 1ª linha -->
+            <div class="linha">
+                <div class="descricao">
+                    <h2 class="descricao__titulo-produto">Bijuterias</h2>
+                    <img src="img/bannerbiju01.jpg" class="descricao__imagem">
+                </div>
+            </div>
+            <!-- 2ª linha -->
+            <div class="linha">
+                <div class="descricao">
+                    <h2 class="descricao__titulo-produto">Bolsas</h2>
+                    <img src="img/bannerbolsa01.jpg" class="descricao__imagem">
+                </div>
+            </div>
+            <!-- 3ª linha -->
+            <div class="linha">
+                <div class="descricao">
+                    <h2 class="descricao__titulo-produto">Maquiagem</h2>
+                    <img src="img/bannermakes03.jpg" class="descricao__imagem">
+                </div>
+            </div>
+            <!-- 4ª linha -->
+            <div class="linha">
+                <div class="descricao">
+                    <h2 class="descricao__titulo-produto">Acessórios</h2>
+                    <img src="img/banneracessorio01.jpg" class="descricao__imagem">
+                </div>
+            </div>
+        </div>
+    </div>     
 </body>
 
 </html>

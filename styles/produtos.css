@@ -1,4 +1,4 @@
-.carrosel__titulo {
+.produtos__titulo {
     color: var(--cor-laranja);
     background-color: var(--cor-beige);
     text-align: center;
@@ -6,4 +6,15 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
+}
+
+.card__descricao {
+    display: flex;
+}
+
+.descricao__imagem {
+    padding: 1.25em;
+    width: 22em;
+    height: 10em;
+
 }
