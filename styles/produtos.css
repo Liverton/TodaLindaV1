@@ -10,11 +10,41 @@
 
 .card {
     display: flex;
-}
-
-.descricao__imagem {
     padding: 1.25em;
-    width: 22em;
-    height: 10em;
-
 }
+
+.linha {
+    margin-bottom: 0.5em;
+}
+
+.descricao__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.descricao__item img {
+    width: 22em;
+    max-height: 10em;
+    border: 1px;
+    border-radius: 24px; 
+    overflow: hidden;
+    transition: filter 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.descricao__item:hover img {
+    filter: brightness(0.8);
+}
+
+.descricao__texto {
+    color: var(--cor-laranja);
+    font-weight: bold;
+    position: absolute; /* Adicionada propriedade position para posicionamento absoluto */
+    left: 50%; /* Centraliza o texto horizontalmente */
+    top: 50%; /* Centraliza o texto verticalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto completamente */
+}
+
