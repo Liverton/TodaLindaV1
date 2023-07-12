@@ -1,6 +1,3 @@
-.card__novidades {
-    text-align: center;
-}
 
 .novidades__titulo {
     color: var(--cor-laranja);
@@ -19,17 +16,16 @@
     padding: 1em;
 }
 
-.novidades.coluna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-}
-
 .novidades__imagem {
     width: 100%;
     max-width: 300px;
-    height: 12em;
+    height: 10em;
     align-self: center;
+}
+
+.novidades__texto {
+    padding: 10px;
+    text-align: center;
+    margin-top: 0.5em;
 }
 
