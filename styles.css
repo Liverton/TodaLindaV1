@@ -2,6 +2,7 @@
 @import url("styles/banner.css");
 @import url("styles/produtos.css");
 @import url("styles/novidades.css");
+@import url("styles/contato.css");
 
 :root {
     --cor-de-fundo: #ebecee;
@@ -9,6 +10,7 @@
     --cor-laranja: #FF8400;
     --cor-preto: black;
     --cor-amarelo: #FFDE00;
+    --cor-amarelo-claro:#FFEF82;
     --fonte-principal: "Poppins";
 }
 
